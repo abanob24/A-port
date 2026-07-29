@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abanob portfolie </title>
+<meta name="description" content="Portfolio of Abanob Morcos.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%23190D33'/%3E%3Cpath d='M22 30V22H30 M70 22H78V30 M78 70V78H70 M30 78H22V70' stroke='%2314E8C4' stroke-width='6' fill='none' stroke-linecap='round'/%3E%3Ctext x='50' y='63' font-family='monospace' font-weight='700' font-size='32' fill='%23FF3E9E' text-anchor='middle'%3EA%3C/text%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ============================================================
+     NAV
+============================================================ -->
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#home" class="brand">
+      <span class="brand-mark">[AM]</span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#journey" class="nav-link">Journey</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <!-- <a href="./Abanob_Morcos_CV_OnePage.pdf" class="btn btn-ghost nav-cta" download> cv </a> -->
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<main id="main">
+
+<!-- ============================================================
+     HERO
+============================================================ -->
+<header class="hero" id="home">
+  <div class="aurora" aria-hidden="true">
+    <span class="blob blob-cyan"></span>
+    <span class="blob blob-pink"></span>
+    <span class="blob blob-amber"></span>
+  </div>
+
+  <div class="hero-inner">
+    <div class="hero-copy">
+      <div class="status-pill reveal"><span class="dot"></span>Available for freelance &amp; internships</div>
+
+      <h1 class="hero-name reveal reveal-d1">Abanob<br>Morcos</h1>
+
+      <div class="hero-role reveal reveal-d2">
+        <!-- <span class="role-prefix">&gt;</span> -->
+        <span id="roleTyper" class="role-typer"></span>
+      </div>
+
+      <p class="hero-desc reveal reveal-d3">
+        fourth-year Computer Science student who builds fast, functional web apps with Laravel and React —
+        and spends the rest of the time teaching machines to see.
+      </p>
+
+      <div class="hero-actions reveal reveal-d4">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="./Abanob_Morcos_CV_OnePage.pdf" class="btn btn-outline" download>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3v12m0 0l-4.5-4.5M12 15l4.5-4.5M5 19h14" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Download CV
+        </a>
+      </div>
+
+     
+    </div>
+
+    <div class="hero-visual reveal reveal-d2">
+      <div class="scan-frame">
+        <span class="corner tl"></span><span class="corner tr"></span>
+        <span class="corner bl"></span><span class="corner br"></span>
+        <span class="scan-line"></span>
+        <picture>
+          <source srcset="./images/w,vjd .jpeg" type="image/webp">
+          <img src="./images/w,vjd .jpeg" alt="Portrait of Abanob Morcos" class="hero-photo" width="420" height="420">
+        </picture>
+       
+      </div>
+    </div>
+  </div>
+
+  <a href="#about" class="scroll-cue" aria-label="Scroll to About section">
+    <span></span>
+  </a>
+</header>
+
+<!-- ============================================================
+     ABOUT
+============================================================ -->
+<section class="section" id="about">
+  <div class="section-inner about-grid">
+    <div class="about-copy reveal">
+      <p class="eyebrow"> About</p>
+      <h2 class="section-title">Code by day, curious by nature.</h2>
+      <p class="body-lead">
+      I'm a Computer Science student at Zagazig National University, currently in my fourth year, and I spend more of my free time writing code than the coursework actually asks for. Full-stack development is where I build: Laravel, React, and MySQL 
+      <span style="color: var(--accent-cyan);"> Right now I'm running both at once as a Front-End AI Engineering Intern at FlyRank, a U.S. company, working inside a real AI-assisted development workflow.</span>
+    </p>
+      <p>
+       The training behind that mix goes back further. Two programs at Bravo Company covered full-stack and backend development. A computer vision course at ITI. AI workshops at Mansoura University. Then the NTI Full-Stack Summer Training Program, which pushed me past code into freelancing strategy, personal branding, and project management. More recently
+     
+      </p>
+      <p>
+       , a set of certifications straight from Anthropic (AI Fluency, Claude 101, Claude Cowork) and DataCamp (the OpenAI API, Python for developers), because knowing how these models actually think matters as much as knowing how to prompt them.
+      </p>
+    </div>
+
+    <div class="about-facts reveal reveal-d1">
+      <div class="fact-card">
+        <span class="fact-label">Location</span>
+        <span class="fact-value">Sharkia, Egypt</span>
+      </div>
+      <div class="fact-card">
+        <span class="fact-label">Education</span>
+        <span class="fact-value">B.Sc. Computer Science — Zagazig National University <em>(in progress)</em></span>
+      </div>
+      <div class="fact-card">
+        <span class="fact-label">Focus</span>
+        <span class="fact-value">Full-Stack Web </span>
+      </div>
+      <div class="fact-card">
+        <span class="fact-label">Languages</span>
+        <span class="fact-value">Arabic (Native) · English (Professional)</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     SKILLS
+============================================================ -->
+<section class="section section-alt" id="skills">
+  <div class="section-inner">
+    <p class="eyebrow reveal"> Skills</p>
+    <h2 class="section-title reveal">What the model detects.</h2>
+    <p class="section-lead reveal">A quick scan of the stack I build with most.</p>
+
+    <div class="skills-grid">
+
+      <div class="skill-card reveal reveal-d1">
+        <div class="skill-head">
+          <span class="skill-icon" style="--c:var(--accent-cyan)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="m8 4-6 8 6 8M16 4l6 8-6 8M13 3l-2 18" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <h3>Full-Stack Web</h3>
+        </div>
+        <ul class="tag-list">
+          <li>HTML5</li><li>CSS3</li><li>JavaScript (ES6+)</li><li>PHP</li><li>Laravel</li><li>React.js</li><li>Bootstrap</li><li>php my admin</li>
+        </ul>
+      </div>
+
+      <div class="skill-card reveal reveal-d2">
+        <div class="skill-head">
+          <span class="skill-icon" style="--c:var(--accent-pink)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><ellipse cx="12" cy="6" rx="8" ry="3"/><path d="M4 6v6c0 1.66 3.58 3 8 3s8-1.34 8-3V6M4 12v6c0 1.66 3.58 3 8 3s8-1.34 8-3v-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <h3>Databases</h3>
+        </div>
+        <ul class="tag-list">
+          <li>SQL</li><li>Database Design</li><li>Query Optimization</li>
+        </ul>
+      </div>
+
+      <div class="skill-card reveal reveal-d3">
+        <div class="skill-head">
+          <span class="skill-icon" style="--c:var(--accent-amber)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="3"/><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7Z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <h3>AI &amp; Computer Vision</h3>
+        </div>
+        <ul class="tag-list">
+          <li>Computer Vision</li><li>Image Processing</li><li>Python (Data Libraries)</li>
+        </ul>
+      </div>
+
+      <div class="skill-card reveal reveal-d4">
+        <div class="skill-head">
+          <span class="skill-icon" style="--c:var(--accent-blue)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="m9 18 6-6-6-6" stroke-linecap="round" stroke-linejoin="round"/><path d="M4 20h16" stroke-linecap="round"/></svg>
+          </span>
+          <h3>Core Skills</h3>
+        </div>
+        <ul class="tag-list">
+          <li>Problem-Solving</li><li>Git &amp; GitHub</li><li>Clean Code Architecture</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     JOURNEY (Training + Certificates)
+============================================================ -->
+<section class="section" id="journey">
+  <div class="section-inner">
+    <p class="eyebrow reveal">Journey</p>
+    <h2 class="section-title reveal">Training </h2>
+    <p class="section-lead reveal">Programs and workshops that shaped how I build.</p>
+
+    <div class="timeline">
+
+      <div class="tl-item reveal reveal-d1">
+        <div class="tl-dot"></div>
+        <div class="tl-body">
+          <span class="tl-status">Just Completed</span>
+          <h3>NTI Full-Stack Summer Training</h3>
+          <p class="tl-org">National Telecommunication Institute — Sharkia, Zagazig</p>
+          <p class="tl-desc">Hands-on full-stack development combined with freelancing strategy, personal
+            branding, and project management training.</p>
+        </div>
+      </div>
+
+      <div class="tl-item reveal reveal-d2">
+        <div class="tl-dot"></div>
+        <div class="tl-body">
+          <span class="tl-status">Course</span>
+          <h3>Full-Stack Web Development</h3>
+          <p class="tl-org">Bravo Company</p>
+          <p class="tl-desc">End-to-end web development covering front-end (HTML5, CSS3, JavaScript, React.js)
+            and back-end (PHP, Laravel, SQL).</p>
+        </div>
+      </div>
+
+      <div class="tl-item reveal reveal-d3">
+        <div class="tl-dot"></div>
+        <div class="tl-body">
+          <span class="tl-status">2 Months</span>
+          <h3>Backend Development Training</h3>
+          <p class="tl-org">Bravo Company</p>
+          <p class="tl-desc">Built, documented, and consumed RESTful APIs with PHP and Laravel. Worked
+            through SQL database architecture, advanced querying, and integration.</p>
+        </div>
+      </div>
+
+      <div class="tl-item reveal reveal-d4">
+        <div class="tl-dot"></div>
+        <div class="tl-body">
+          <span class="tl-status">Course</span>
+          <h3>Computer Vision</h3>
+          <p class="tl-org">Information Technology Institute (ITI)</p>
+          <p class="tl-desc">Image processing and real-time object detection, with Python-based mini-projects.</p>
+        </div>
+      </div>
+
+      <div class="tl-item reveal reveal-d5">
+        <div class="tl-dot"></div>
+        <div class="tl-body">
+          <span class="tl-status">Workshops</span>
+          <h3>AI Applications</h3>
+          <p class="tl-org">Mansoura University</p>
+          <p class="tl-desc">Interactive labs on machine learning concepts, neural networks, and real-world
+            AI industry applications.</p>
+        </div>
+      </div>
+      <div class="tl-item reveal reveal-d6">
+        <div class="tl-dot"></div>
+        <div class="tl-body">
+          <span class="tl-status">2 Months</span>
+          <h3>Front-End AI Engineering Intern</h3>
+          <p class="tl-org">FlyRank — United States (Remote)</p>
+          <p class="tl-desc">Working on front-end engineering within an AI-assisted development
+             workflow for a U.S.-based company,
+             building real interfaces in a live production environment.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="cert-strip reveal">
+      <span class="cert-chip">Full-Stack Development Certificate — Bravo Company</span>
+      <span class="cert-chip">Computer Vision Certificate — ITI</span>
+      <span class="cert-chip">AI Applications Certificate — Mansoura University</span>
+      <span class="cert-chip">NTI Full-Stack Summer Training Certificate</span>
+      <span class="cert-chip">Claude 101 — Anthropic</span>
+      <span class="cert-chip">AI Fluency: Framework & Foundations — Anthropic</span>
+      <span class="cert-chip">AI Fluency: AI Capabilities & Limitations — Anthropic</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     PROJECTS
+============================================================ -->
+<section class="section section-alt" id="projects">
+  <div class="section-inner">
+    <p class="eyebrow reveal"> Projects</p>
+    <h2 class="section-title reveal">Projects I have completed.</h2>
+    <p class="section-lead reveal">Real interfaces, not mockups — a closer look at the builds themselves.</p>
+ 
+    <div class="projects-grid">
+ 
+      <article class="project-card reveal reveal-d1">
+        <div class="project-media">
+          <span class="corner tl"></span><span class="corner tr"></span><span class="corner bl"></span><span class="corner br"></span>
+          <picture>
+            <source srcset="./images/Screenshot 2026-07-20 092903.png" type="image/webp">
+            <img src="./images/clinic.png" alt="Little Roots Pediatrics homepage — pediatric clinic hero section with booking CTA" loading="lazy" width="1000" height="625">
+          </picture>
+          <span class="project-tag">Healthcare</span>
+        </div>
+        <div class="project-info">
+          <h3>Little Roots Pediatrics</h3>
+          <p style="text-align: center; line-height: 1.8;">A pediatric clinic landing page built to turn a nervous
+             parent's hesitation into a booked visit. A live "Open Now" badge, 
+             a 4.9-star rating pulled straight from thousands of reviews, and a first-visit 
+             discount all sit exactly
+             .</p>
+        </div>
+         <a href="https://abanob24.github.io/final-project5/" target="_blank" rel="noopener" class="btn btn-outline py-4 " style="display: flex; align-items: center; justify-content: center; width: 50%;margin: auto; border-radius: 20px; margin-bottom: 10px; ">view site</a>
+      </article>
+ 
+      <!-- <article class="project-card reveal reveal-d2">
+        <div class="project-media">
+          <span class="corner tl"></span><span class="corner tr"></span><span class="corner bl"></span><span class="corner br"></span>
+          <picture>
+            <source srcset="./images/art.png" type="image/webp">
+            <img src="./images/art.png" alt="Maison Artisane homepage — handmade goods brand site with warm glow hero" loading="lazy" width="1000" height="625">
+          </picture>
+          <span class="project-tag">Brand Site</span>
+        </div>
+        <div class="project-info">
+          <h3>Maison Artisane</h3>
+          <p>An elegant storefront for handmade goods, leaning on soft glow and editorial type to feel
+            crafted rather than mass-produced.</p>
+        </div>
+         <a href="https://abanob24.github.io/final-project5/" target="_blank" rel="noopener" class="btn btn-outline py-4 " style="display: flex; align-items: center; justify-content: center; width: 50%;margin: auto; border-radius: 20px; margin-bottom: 10px; ">view site</a>
+      </article>
+  -->
+      
+  <article class="project-card reveal reveal-d3">
+        <div class="project-media">
+          <span class="corner tl"></span><span class="corner tr"></span><span class="corner bl"></span><span class="corner br"></span>
+          <picture>
+            <source srcset="./images/gaming.png" type="image/webp">
+            <img src="./images/gaming.png" alt="DYAT homepage — dark-mode NFT and gaming platform hero section" loading="lazy" width="1000" height="625">
+          </picture>
+          <span class="project-tag">Web3 / Gaming</span>
+        </div>
+        <div class="project-info">
+          <h3>DYAT</h3>
+          <p  style="text-align: center; line-height: 1.8;" >Built for a gaming and NFT platform that wanted to sit 
+            next to Unreal Engine and NVIDIA RTX, not apart from them.
+             Acid green on black, an oversized 3D mascot, and a headline big enough to read 
+            before a single line of body copy does.</p>
+        </div>
+         <a href="https://abanob24.github.io/gaming/" target="_blank" rel="noopener" class="btn btn-outline py-4 " style="display: flex; align-items: center; justify-content: center; width: 50%;margin: auto; border-radius: 20px; margin-bottom: 5px; ">view site</a>
+      </article>
+ 
+      <!-- <article class="project-card reveal reveal-d4">
+        <div class="project-media">
+          <span class="corner tl"></span><span class="corner tr"></span><span class="corner bl"></span><span class="corner br"></span>
+          <picture>
+            <source srcset="./images/restrant.png" type="image/webp">
+            <img src="./images/restrant.png" alt="FreshMeal Shop homepage — food e-commerce hero with product grid" loading="lazy" width="1000" height="625">
+          </picture>
+          <span class="project-tag">E-Commerce</span>
+        </div>
+        <div class="project-info">
+          <h3>FreshMeal Shop</h3>
+          <p>A bright, product-first storefront concept for a healthy meal brand, built around fast
+            browsing and clear calls to action.</p>
+        </div>
+        <a href="https://abanob24.github.io/final-project5/" target="_blank" rel="noopener" class="btn btn-outline py-4 " style="display: flex; align-items: center; justify-content: center; width: 50%;margin: auto; border-radius: 20px; margin-bottom: 10px; ">view site</a>
+      </article>
+  -->
+     
+  <article class="project-card reveal reveal-d5">
+        <div class="project-media">
+          <span class="corner tl"></span><span class="corner tr"></span><span class="corner bl"></span><span class="corner br"></span>
+          <picture>
+            <source srcset="./images/bakery.png" type="image/webp">
+            <img src="./images/bakery.png" alt="Family Bakery homepage recreation — rustic bakery hero section" loading="lazy" width="1000" height="625">
+          </picture>
+          <span class="project-tag">Front-End Practice</span>
+        </div>
+        <div class="project-info">
+          <h3>Family Bakery</h3>
+          <p style="text-align: center; line-height: 1.8;">A front-end rebuild of a bakery brand's homepage: rustic 
+            wood shelving, hand-chalked signage, baskets of sourdough bread, 
+            recreated section by section until the typography
+             and spacing matched the original exactly.</p>
+        </div>
+         <a href="https://abanob24.github.io/bekary2/" target="_blank" rel="noopener" class="btn btn-outline py-4 " style="display: flex; align-items: center; justify-content: center; width: 50%;margin: auto; border-radius: 20px; margin-bottom: 10px; ">view site</a>
+      </article>
+ 
+    </div>
+ 
+    <div class="projects-cta reveal">
+      <a href="https://github.com/abanob24" target="_blank" rel="noopener" class="btn btn-outline">
+        See more on GitHub
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M7 17 17 7M7 7h10v10" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+<!-- ============================================================
+     CONTACT
+============================================================ -->
+<section class="section" id="contact">
+  <div class="section-inner">
+    <p class="eyebrow reveal"> Contact</p>
+    <h2 class="section-title reveal">Let's build something.</h2>
+    <p class="section-lead reveal">Open to freelance projects and internship opportunities — reach out however's easiest.</p>
+
+    <div class="contact-grid">
+      <a href="mailto:abanobmorkos@gmail.com" class="contact-card reveal reveal-d1">
+        <span class="contact-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 6h18v12H3z" stroke-linejoin="round"/><path d="m3 7 9 6 9-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+        <span class="contact-label">Email</span>
+        <span class="contact-value">abanobmorkos@gmail.com</span>
+      </a>
+
+      <a href="tel:+201279322081" class="contact-card reveal reveal-d2">
+        <span class="contact-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.99.36 1.96.68 2.89a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.19-1.25a2 2 0 0 1 2.11-.45c.93.32 1.9.55 2.89.68A2 2 0 0 1 22 16.92Z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+        <span class="contact-label">Phone</span>
+        <span class="contact-value">+20 127 932 2081</span>
+      </a>
+
+      <a href="https://linkedin.com/in/abanob-morcos" target="_blank" rel="noopener" class="contact-card reveal reveal-d3">
+        <span class="contact-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9h4v12H3zm7 0h3.8v1.7h.05c.53-.95 1.83-1.95 3.77-1.95 4.03 0 4.78 2.5 4.78 5.75V21h-4v-5.7c0-1.36-.02-3.1-1.9-3.1-1.9 0-2.2 1.46-2.2 3v5.8h-4z"/></svg>
+        </span>
+        <span class="contact-label">LinkedIn</span>
+        <span class="contact-value">/in/abanob-morcos</span>
+      </a>
+
+      <a href="https://github.com/abanob24" target="_blank" rel="noopener" class="contact-card reveal reveal-d4">
+        <span class="contact-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.5 0-.24-.01-.87-.01-1.71-2.78.62-3.37-1.37-3.37-1.37-.46-1.2-1.11-1.52-1.11-1.52-.91-.64.07-.63.07-.63 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.31.1-2.73 0 0 .84-.28 2.75 1.05a9.3 9.3 0 0 1 5 0c1.91-1.33 2.75-1.05 2.75-1.05.55 1.42.2 2.47.1 2.73.64.72 1.03 1.63 1.03 2.75 0 3.93-2.34 4.79-4.57 5.05.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .28.18.61.69.5A10.26 10.26 0 0 0 22 12.25C22 6.58 17.52 2 12 2Z"/></svg>
+        </span>
+        <span class="contact-label">GitHub</span>
+        <span class="contact-value">/abanob24</span>
+      </a>
+    </div>
+
+    <p class="contact-location reveal">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 22s7-7.5 7-12.5A7 7 0 0 0 5 9.5C5 14.5 12 22 12 22Z" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+      Based in Sharkia, Egypt — open to remote work worldwide
+    </p>
+  </div>
+</section>
+
+</main>
+
+<!-- ============================================================
+     FOOTER
+============================================================ -->
+<footer class="site-footer">
+  <div class="footer-inner">
+   
+    <p >© <span id="year"></span> Abanob Morcos. Built with HTML, CSS &amp; JavaScript.</p>
+  </div>
+</footer>
+
+<script src="main.js" defer></script>
+</body>
+</html>
